@@ -8,11 +8,11 @@ This project gave me insight into reinforcement learning, but it’s not intende
 
 Below are examples of agents I trained with this code.
 
-### Lunar Lander V3 (continuos)
-![Lunar Lander Agent](assets/lunar_lander_example.mp4)
+### Lunar Lander V3 (continuous)
+![Lunar Lander Agent](assets/lunar_lander_example.gif)
 
 ### Bipedal Walker V3
-![Bipedal Walker Agent](assets/bipedal_walker_example.mp4)
+![Bipedal Walker Agent](assets/bipedal_walker_example.gif)
 
 ## Usage
 
