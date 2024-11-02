@@ -1,0 +1,11 @@
+recordings/
+*.mp4
+__pycache__/
+.coderunner.json
+.DS_Store
+*.pth
+testbench.py
+
+!assets/bipedal_walker_example.mp4
+!assets/lunar_lander_example.mp4
+
