@@ -61,7 +61,6 @@ def get_config(env):
         trainer_kwargs = {
             "num_envs": 16,
             "minibatch_size": 128,
-            "ent_coef": 0.01, 
             "record_test_vids": True,
             "recording_path": "RaceRecordings",
             "recording_interval": 4,
