@@ -118,12 +118,12 @@ class PPOTrainer():
             obs_dim     = self.envs.observation_space.shape,
             act_dim     = self.envs.action_space.shape,
             num_envs    = self.num_envs, 
-            n_steps     = num_steps
+            n_steps     = num_steps,
+            gae_gamma   = gae_gamma,
+            gae_lambda  = gae_lambda,
         )
 
         self.num_steps      = num_steps
-        self.gae_gamma      = gae_gamma
-        self.gae_lambda     = gae_lambda
         self.batch_size     = num_steps * self.num_envs 
         self.minibatch_size = minibatch_size
         self.num_minibatches = self.batch_size // self.minibatch_size
